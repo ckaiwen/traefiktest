@@ -1,0 +1,21 @@
+log:
+  level: info
+
+entryPoints:
+  web:
+    address: ":80"
+  web-internal:
+    address: ":81"
+  web-secure:
+    address: ":443"
+  grpc-secure:
+    address: ":8000"
+  grpc-internal:
+    address: ":8001"
+
+providers:
+  file:
+    directory: /traefik/config
+    watch: true
+  docker:
+    exposedByDefault: false

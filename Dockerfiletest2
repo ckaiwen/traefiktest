@@ -1,0 +1,9 @@
+FROM alpine:latest
+
+WORKDIR /root/
+
+COPY test2 .
+
+EXPOSE 9000
+
+CMD ["./test2"]

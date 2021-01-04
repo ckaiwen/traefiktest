@@ -1,0 +1,13 @@
+http:
+  routers:
+    test1-http:
+      entryPoints:
+        - web
+      rule: PathPrefix(`/test1`)
+      service: test1-http
+
+services:
+  test1-http:
+    loadBalancer:
+      servers:
+        - url: http://test1:9000

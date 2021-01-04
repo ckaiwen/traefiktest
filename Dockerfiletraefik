@@ -1,0 +1,7 @@
+FROM traefik:v2.3
+
+COPY traefik.yaml /etc/traefik/traefik.yaml
+
+COPY config /traefik/config
+
+EXPOSE 80 81 443 8000 8001

@@ -6,8 +6,8 @@ http:
       rule: PathPrefix(`/test2`)
       service: test2-http
 
-services:
-  test2-http:
-    loadBalancer:
-      servers:
-        - url: http://test2:9000
+  services:
+    test2-http:
+      loadBalancer:
+        servers:
+          - url: http://test2:9000

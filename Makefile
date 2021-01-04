@@ -9,7 +9,12 @@ test2Image:
 traefikImage:
 	docker build -f Dockerfiletraefik -t gateway:1.0.0 .
 
+cleantraefik:
+	docker rmi -f $$(docker images | grep gateway | awk '{print $$3}') || true
 clean:
 	docker rmi -f $$(docker images | grep test1 | awk '{print $$3}') || true
 	docker rmi -f $$(docker images | grep test2 | awk '{print $$3}') || true
 	docker rmi -f $$(docker images | grep gateway | awk '{print $$3}') || true
+
+composeRun:
+	docker-compose up  --remove-orphans

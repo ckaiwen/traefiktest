@@ -4,4 +4,4 @@ COPY traefik.yaml /etc/traefik/traefik.yaml
 
 COPY config /traefik/config
 
-EXPOSE 80 81 443 8000 8001
+EXPOSE 80 8080

@@ -16,25 +16,28 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b7bd2f5-d7c8-4530-b77a-a99ffad97776" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfiletest1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfiletest2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfiletraefik" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/test1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/test2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_test1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_test2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traefik.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfiletraefik" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfiletraefik" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/test1.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/test2.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerComposeLable.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_test2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2" beforeDir="false" afterPath="$PROJECT_DIR$/test2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traefik.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/traefik.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,11 @@
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
@@ -79,7 +87,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -90,9 +110,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="676" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609740717682">
-      <screen x="65" y="24" width="1855" height="1056" />
+    <state x="1998" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609768503521">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1998" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1609768503521" />
     <state x="676" y="341" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1609740717682" />
     <state x="804" y="442" key="FileChooserDialogImpl" timestamp="1609749449971">
       <screen x="65" y="24" width="1855" height="1056" />
@@ -106,9 +127,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="804" y="226" key="Github.UntrackedFilesDialog/1920.0.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1607047353506" />
-    <state x="592" y="275" key="Vcs.Push.Dialog.v2" timestamp="1607072276215">
-      <screen x="65" y="24" width="1855" height="1056" />
+    <state x="1911" y="257" key="Vcs.Push.Dialog.v2" timestamp="1609768171714">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1911" y="257" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1609768171714" />
     <state x="592" y="275" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1607072276215" />
   </component>
 </project>
